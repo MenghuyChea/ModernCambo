@@ -1,0 +1,243 @@
+#top-posts {
+  margin: 10px 0px;
+}
+#main-top {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+}
+#main {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+#left, #right {
+  margin-bottom: 10px;
+    background: white;
+}
+#left {
+  float: left;
+  width: 70%;
+}
+#right {
+  float: right;
+  width: 29%;
+  position: sticky;
+  top: 0;
+  height: 500px;
+}
+#slides {
+  background: #e7e7e7;
+  display: grid;
+  width: 100%;
+  height: 500px;
+  grid-template-areas:
+  'slide slide news3'
+  'slide slide news3'
+  'news1 news2 news3';
+  grid-gap: 10px;
+}
+#slide, #news1, #news2, #news3 {
+  background: #ccc;
+}
+#slide{grid-area:slide;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+  background: url(slide.jpg);
+  background-size: cover;
+  transition: 0.4s;
+} #news1{grid-area:news1;
+  background: url(news1.jpg) no-repeat center;
+  background-size: cover;
+} #news2{grid-area:news2;
+  background: url(news2.jpg) no-repeat center;
+  background-size: cover;
+} #news3{grid-area:news3;
+  background: url(news3.jpg) no-repeat center;
+  background-size: cover;
+}
+#slide a {
+  text-decoration: none;
+  color: #fff;
+  background: #333;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  padding-top: 3px;
+  box-sizing: border-box;
+  visibility: hidden;
+}
+#slide:hover {
+  filter: brightness(0.8);
+}
+#slide:hover > a {
+  visibility: visible;
+}
+.ct {
+  background: #fff;
+  padding-bottom: 10px;
+  box-shadow: 2px 2px 7 2px #ccc;
+}
+.ct-right {
+  width: 100%;
+  background: #e7e7e7;
+  border-bottom: 3px solid #e5217d;
+  margin-bottom: 10px;
+}
+.ct-right-type {
+  width: 100px;
+  height: 40px;
+  background: linear-gradient(to right, red, #e5217d);
+}
+.x {
+  margin-left: 100px;
+  border-color: transparent #e5217d;
+  border-style: solid;
+  border-width: 40px 0 0 16px;
+}
+.ct-right-type p {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  line-height: 44px;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Koulen', cursive;
+}
+
+.posts {
+  width: 98%;
+  margin: auto;
+  display: grid;
+  grid-template-areas:
+  'post-1 post-2 post-3'
+  'post-4 post-5 post-6';
+  grid-gap: 10px;
+}
+.posts a {
+  text-decoration: none;
+  color: #333;
+}
+.post-1, .post-2, .post-3, .post-4, .post-5, .post-6 {
+  height: 170px;
+}
+.post-1{grid-area: post-1;} .post-2{grid-area: post-2;} .post-3{grid-area: post-3;} .post-4{grid-area: post-4;} .post-5{grid-area: post-5;} .post-6{grid-area: post-6;}
+.post-img, .post-title {
+  float: left;
+}
+.post-img {
+  width: 60%;
+  height: 100%;
+  background: #ccc;
+}
+.post-title {
+  width: 40%;
+}
+.post-title p {
+  margin-left: 10px;
+}
+.by {
+  font-size: 10px;
+}
+.img1-1 {
+  background: url('komsan/img/_107575137_stonewall_comp.jpg') no-repeat center;
+  background-size: cover;
+}
+.img1-2 {
+  background: url('komsan/img/1-1-1.jpg') no-repeat center;
+  background-size: cover;
+}
+.img1-3 {
+  background: url('komsan/img/Keano.jpg');
+  background-size: cover;
+}
+.img1-4 {
+  background: url('komsan/img/5d142d71d3300_1561603440.png');
+  background-size: cover;
+}
+.img1-5 {
+  background: url('komsan/img/5d1424dc5b6b8_1561601220_medium.jpg');
+  background-size: cover;
+}
+.img1-6 {
+  background: url('komsan/img/sky.jpg');
+  background-size: cover;
+}
+.img3-1 {
+  background: url('http://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Technology-News/International/News181/5b8f9568a2f32_1536136500_large.jpg');
+  background-size:cover;
+}
+.img3-2 {
+  background: url('tech/picture__.jpg');
+  background-size:cover;
+}
+.img3-3 {
+  background: url('http://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Technology-News/International/News263/5d01bbcad9f66_1560394680_large.jpg');
+  background-size:cover;
+}
+.img3-4 {
+  background: url('https://i.ytimg.com/vi/IBjcpAhbRaY/maxresdefault.jpg');
+  background-size:cover;
+}
+.img3-5 {
+  background: url('http://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Technology-News/International/News261/5cf9d5892dfc3_1559877000_large.png');
+  background-size: cover;
+}
+.img3-6 {
+  background: url('http://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Technology-News/International/News261/5cfc7497322c0_1560048780.jpg');
+  background-size:cover;
+}
+
+.img4-1 {
+  background: url('art/image/45.jpg');
+  background-size : cover;
+}
+.img4-2 {
+  background: url('art/image/61.jpg');
+  background-size : cover;
+}
+.img4-3 {
+  background: url('art/image/91.jpg');
+  background-size : cover;
+}
+.img4-4 {
+  background: url('art/image/65.jpg');
+  background-size : cover;
+}
+.img4-5 {
+  background: url('art/image/83.jpg');
+  background-size : cover;
+}
+.img4-6 {
+  background: url('art/image/46.jpg');
+  background-size : cover;
+}
+.img5-1 {
+  background: url('sport/img/27.jpg');
+  background-size : cover;
+}
+.img5-2 {
+  background: url('sport/img/37.jpg');
+  background-size : cover;
+}
+.img5-3 {
+  background: url('sport/img/49.jpg');
+  background-size : cover;
+}
+.img5-4 {
+  background: url('sport/img/15.jpg');
+  background-size : cover;
+}
+.img5-5 {
+  background: url('sport/img/4.jpg');
+  background-size : cover;
+}
+.img5-6 {
+  background: url('sport/img/44.jpg');
+  background-size : cover;
+}
+
+

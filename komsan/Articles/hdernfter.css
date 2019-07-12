@@ -1,0 +1,141 @@
+html, body {
+  height: 100%;
+}
+#container {
+  min-height: 100%;
+}
+#main {
+  overflow: auto;
+  padding-bottom: 300px;
+}
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0 auto;
+  font-family: 'Kantumruy', sans-serif;
+  background: #e7e7e7;
+}
+#navigation {
+  width: 100%;
+  height: 70px;
+  background: black;
+}
+#header_ {
+  width: 1300px;
+  margin: auto;
+  height: 100%;
+  background-color: green;
+}
+#logo {
+  height: 60px;
+  margin-top: 5px;
+  margin-left: 50px;
+  width: 280px;
+  float: left;
+}
+#nav {
+  height: 100%;
+  font-family: 'Koulen', cursive;
+  float: left;
+}
+header img {
+  height: 100%;
+}
+header li {
+  float: left;
+  margin: 12px 5px;
+  font-size: 25px;
+  list-style: none;
+}
+header li a {
+  text-decoration: none;
+  color: white;
+  padding: 0px 15px;
+}
+header li:hover {
+  background: linear-gradient(to left, #e5127d, red);
+  border: none;
+  border-radius: 3px;
+}
+header li:active a {
+  color: black;
+}
+.search-box {
+  display: inline-block;
+  float: right;
+  margin-top: 5px;
+  margin-right: 145px;
+  height: 40px;
+  padding: 10px;
+}
+.search-box:hover > .search-txt {
+  width: 150px;
+  padding: 0 6px;
+}
+.search-box:hover > .search-btn {
+  background: red;
+}
+.search-btn {
+  color: white;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
+footer {
+  color: white;
+  font-family: 'Kantumruy', sans-serif;
+}
+footer img {
+  width: 70%;
+}
+footer h2 {
+  font-family: 'Dangrek', cursive !important;
+}
+#foot_ {
+  width: 1525px;
+  margin: auto;
+}
+#footer_ {
+  position: relative;
+  height: 300px;
+  margin-top: -300px;
+  width: 100%;
+  background: black;
+}
+footer ul li {
+  margin-left: -40px;
+  line-height: 30px;
+}
+.copyrite {
+  padding-top: 30px;
+  padding-left: 40px;
+  width: 400px;
+  float: left;
+  margin-left: 30px;
+}
+.copyrite ul li {
+  list-style: none;
+}
+.copyrite ul a {
+  color: white;
+  font-size: 35px;
+  float: left;
+  padding-right: 20px;
+}
